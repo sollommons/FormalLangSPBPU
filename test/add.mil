@@ -1,0 +1,8 @@
+BEGIN
+ s := 1;
+ k := 0;
+ FOR i := s TO 10 STEP 1 DO
+ k := k + i
+ OD;
+ WRITE(k)
+END
