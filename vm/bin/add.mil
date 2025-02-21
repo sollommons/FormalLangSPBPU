@@ -1,0 +1,7 @@
+BEGIN
+k := 3;
+FOR i := 1 TO 7 STEP 2 DO
+k := 2 * i
+OD;
+WRITE(k)
+END

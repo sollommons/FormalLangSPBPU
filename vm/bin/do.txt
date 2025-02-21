@@ -1,0 +1,22 @@
+0:      PUSH    1
+1:      STORE   0
+2:      PUSH    0
+3:      STORE   1
+4:      LOAD    0
+5:      STORE   2
+6:      LOAD    2
+7:      PUSH    10
+8:      COMPARE 4
+9:      JUMP_NO 19
+10:     PUSH    1
+11:     LOAD    1
+12:     LOAD    2
+13:     ADD
+14:     STORE   1
+15:     LOAD    2
+16:     ADD
+17:     STORE   2
+18:     JUMP    6
+19:     LOAD    1
+20:     PRINT
+21:     STOP
